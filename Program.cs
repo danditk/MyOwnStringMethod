@@ -10,6 +10,15 @@ namespace MyOwnStringMethod
     {
         static void Main(string[] args)
         {
+            string z = "";
+            object x = 1;
+            object y = "Tekstowo";
+            TextGenerator(z, x, y);
+        }
+
+        public static string TextGenerator(string text, params object[] args)
+        {
+            string task = "";
         }
     }
 }
